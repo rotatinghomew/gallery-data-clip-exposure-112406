@@ -1,0 +1,149 @@
+{
+  "tables": {
+    "sources": [
+      "work",
+      "family",
+      "label",
+      "seconds",
+      "partition"
+    ],
+    "fingerprint": [
+      "work",
+      "second",
+      "native",
+      "mirrored"
+    ],
+    "edits": [
+      "edit",
+      "title",
+      "seconds",
+      "transform",
+      "possible_rates",
+      "received_day"
+    ],
+    "edit_fingerprint": [
+      "edit",
+      "second",
+      "sample",
+      "noise_band"
+    ],
+    "review": [
+      "review",
+      "edit",
+      "start",
+      "end",
+      "work",
+      "work_start",
+      "work_end",
+      "judgment",
+      "revision_day"
+    ],
+    "rights": [
+      "right",
+      "work",
+      "first",
+      "last",
+      "holder",
+      "venues",
+      "day_from",
+      "day_to",
+      "cents",
+      "basis",
+      "status"
+    ],
+    "shows": [
+      "show",
+      "day",
+      "venue",
+      "screens",
+      "scheduled_edit",
+      "edition"
+    ],
+    "display": [
+      "event",
+      "show",
+      "screen",
+      "edit",
+      "first",
+      "last",
+      "wall_first",
+      "wall_last",
+      "observed",
+      "revision_day"
+    ],
+    "journal": [
+      "entry",
+      "show",
+      "work",
+      "first",
+      "last",
+      "right",
+      "cents",
+      "state",
+      "received_day"
+    ]
+  },
+  "references": [
+    [
+      "sources",
+      "work",
+      "fingerprint",
+      "work"
+    ],
+    [
+      "edits",
+      "edit",
+      "edit_fingerprint",
+      "edit"
+    ],
+    [
+      "edits",
+      "edit",
+      "review",
+      "edit"
+    ],
+    [
+      "sources",
+      "work",
+      "review",
+      "work"
+    ],
+    [
+      "sources",
+      "work",
+      "rights",
+      "work"
+    ],
+    [
+      "shows",
+      "show",
+      "display",
+      "show"
+    ],
+    [
+      "edits",
+      "edit",
+      "display",
+      "edit"
+    ],
+    [
+      "shows",
+      "show",
+      "journal",
+      "show"
+    ],
+    [
+      "rights",
+      "right",
+      "journal",
+      "right"
+    ]
+  ],
+  "agreement_keys": [
+    "clock",
+    "signature",
+    "permitted",
+    "billing",
+    "holdout"
+  ]
+}
